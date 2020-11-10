@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: route1
+          predicates:
+            - Path=/ms-pelerin/**
+          filters:
+            - RewritePath=/ms-pelerin/(?<s>.*), /${s}
+            - name: CircuitBreaker
+              args:
+                name: fallbck-mspelerin
+                fallbackuri: forward:/defaultPelerins
+          uri: lb://ms-gestion-pelerin
+

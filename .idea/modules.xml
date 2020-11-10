@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateaway/cloud-gateaway.iml" filepath="$PROJECT_DIR$/cloud-gateaway/cloud-gateaway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-config/ms-config.iml" filepath="$PROJECT_DIR$/ms-config/ms-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pelerin/ms-pelerin.iml" filepath="$PROJECT_DIR$/ms-pelerin/ms-pelerin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-registry/ms-registry.iml" filepath="$PROJECT_DIR$/ms-registry/ms-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-vol/ms-vol.iml" filepath="$PROJECT_DIR$/ms-vol/ms-vol.iml" />
+    </modules>
+  </component>
+</project>
